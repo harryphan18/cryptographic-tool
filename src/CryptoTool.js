@@ -122,6 +122,13 @@ const CryptoTool = () => {
     <>
         {contextHolder}
         <h1>Cryptography Tool</h1>
+        <div className='title'>
+            <h3>Môn học: An Ninh Hệ Thống Thông Tin</h3>
+            <h3>Phan Quốc Huy</h3>
+        </div>
+
+
+        <h2>CBC</h2>
 
         <div className='form-control'>
             <Input value={cbc.plaintext}
